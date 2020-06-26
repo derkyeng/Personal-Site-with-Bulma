@@ -11,9 +11,17 @@ body {
   background-color: #94e2ff;
 }
 
-.hero .title {
+.hero #heroName {
+  font-size: 4.5em;
   color: white;
-  text-shadow: 2px 2px wheat;
+  text-shadow: 2px 2px lightgrey;
+}
+
+.hero #heroSubtitle {
+  font-size: 2.5em;
+  margin-bottom: 3em;
+  color: white;
+  text-shadow: 2px 3px lightgrey;
 }
 
 #snork {
@@ -21,4 +29,29 @@ body {
   border-style: solid;
   display: block;
   margin: auto;
+}
+
+#bioHead {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#additionalInfo {
+  border-style: solid;
+  border-radius: 50px;
+  border-color: transparent;
+  background-color: #94e2ff;
+  color: white;
+  padding: 30px;
+}
+
+#additionalInfo h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+#additionalInfo h2 {
+  color: white;
+  text-align: left;
 }

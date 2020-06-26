@@ -12,9 +12,16 @@ body {
 
 .hero{
     background-color: $primary-color;
-    .title{
+    #heroName{
+        font-size: 4.5em;
         color: white;
-        text-shadow: 2px 2px wheat;
+        text-shadow: 2px 2px lightgrey;
+    }
+    #heroSubtitle{
+        font-size: 2.5em;
+        margin-bottom: 3em;
+        color: white;
+        text-shadow: 2px 3px lightgrey;
     }
 }
 
@@ -23,4 +30,26 @@ body {
     border-style: solid;
     display: block;
     margin: auto;
+}
+#bioHead{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#additionalInfo{
+    border-style: solid; 
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: $primary-color;
+    color: white;
+    padding: 30px;
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+    }
+    h2{
+        color: white;
+        text-align: left;
+    }
 }
