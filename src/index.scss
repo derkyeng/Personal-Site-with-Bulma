@@ -1,0 +1,26 @@
+$font-stack: 'Noto Sans JP', sans-serif;
+$primary-color: #94e2ff;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    font: 100% $font-stack;
+}
+
+.title{
+    font: $font-stack;
+}
+
+.hero{
+    background-color: $primary-color;
+    .title{
+        color: white;
+        text-shadow: 2px 2px wheat;
+    }
+}
+
+#snork{
+    border-radius: 50%;
+    border-style: solid;
+    display: block;
+    margin: auto;
+}
