@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-        <link rel="stylesheet" href="./dist/index.css"> 
-        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="./src/dist/index.css"> 
+        <title>Derek Yang</title>
     </head>
     <body>
         <!--Navigation Bar-->
@@ -25,17 +25,17 @@
                     <div class='navbar-item'>
                         <span class="icon" style='margin-right: 20px;'>
                             <a href='https://github.com/derkyeng'>
-                                <img src='../logo/github.svg' alt="" width="50" height="28">
+                                <img src='./logo/github.svg' alt='Github Logo' width='50' height='28'>
                             </a>
                         </span>
                         <span class="icon" style='margin-right: 20px;'>
                             <a href='https://twitter.com/derkyeng'>
-                                <img src='../logo/twitter.svg' alt="" width="50" height="28">
+                                <img src='./logo/twitter.svg' alt='Twitter Logo' width='50' height='28'>
                             </a>
                         </span>
                         <span class="icon" style='margin-right: 10px;'>
                             <a href='https://www.instagram.com/derkyeng/?hl=en'>
-                                <img src='../logo/instagram.svg' alt="" width="50" height="28">
+                                <img src='./logo/instagram.svg' alt='Instagram Logo' width='50' height='28'>
                             </a>
                         </span>
                     </div>
@@ -62,10 +62,10 @@
             <div class='container'>
                 <div class='columns'>
                     <div class='column is-half'>
-                        <img src='../logo/snork.webp' id='snork'>
+                        <img src='./logo/snork.webp' id='snork'>
                     </div>
                     <div class='column'>
-                        <h1 id='bioHead'>Hey, I'm Derek.</h1>
+                        <h1 id='bioHead'>About Me</h1>
                         <p id='bio'>
                             Currently I am a Computer Science Student at Hamilton College.<br>
                             Recently, my interests have mainly resided in full stack development, particularly <br>
@@ -79,26 +79,30 @@
         <!--Education and Skills -->
         <section class='section'>
                 <div class='columns'>
-                    <div class='column is-half' style='display: block; margin: auto;'>
-                        <div class='container' id='additionalInfo'>
+                    <div class='column is-half' id='parentCol' style='display: block; margin: auto;'>
+                        <div class='container is-fluid' id='additionalInfo'>
                             <h1 class='title'>Education</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis at nostrum, beatae in ullam blanditiis 
-                                ducimus quas enim quae consequatur error aperiam quisquam qui laboriosam 
-                                corrupti officia quam fugiat eveniet?
-                            </p>
+                            <a href='https://www.instagram.com/derkyeng/?hl=en'>
+                                <img src='./logo/hamilton-college.png' id='hamilton' alt='Hamilton College Logo' width='100' height='28'>
+                            </a>
+                            <h2>
+                                Bachelor of Art in Computer Science <br>
+                                Expected Completion Date: 2023
+                            </h2>
                         </div>
                     </div>
-                    <div class='column is-half' style='display: block; margin: auto;'>
+                    <div class='column is-half' id='parentCol' style='display: block; margin: auto;'>
                         <div class='container' id='additionalInfo'>
                             <h1 class='title'>Skills</h1>
-                            <h2 class='subtitle'>Languages:<h2>
-                            <h2 class='subtitle2'>HTML, CSS, JavaScript, Python, C++, Java<h2></h2>
+                            <h2 id='category'>Languages:<h2>
+                            <h2 id='skills'>HTML, CSS, JavaScript, Python, C++, Java</h2>
+                            <h2 id='category'><br>Technologies:<h2>
+                            <h2 id='skills'>HTML, CSS, JavaScript, Python, C++, Java</h2>
                         </div>
                     </div>
                 </div>
         </section>
 
-        <script src='./dist/index.js'></script>
+        <script src='./src/dist/index.dev.js'></script>
     </body>
 </html>

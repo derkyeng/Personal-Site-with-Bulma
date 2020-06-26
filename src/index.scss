@@ -42,14 +42,27 @@ body {
     border-color: transparent;
     background-color: $primary-color;
     color: white;
+    min-height: 20em;
     padding: 30px;
     h1{
         text-align: center;
         margin-top: 20px;
         color: white;
     }
-    h2{
+    #category{
         color: white;
         text-align: left;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #skills{
+        color: white;
+        text-align: left;
+        font-size: 1.15em;
+    }
+    #hamilton{
+        display: block;
+        margin: auto;
+        border-radius: 50%;
     }
 }

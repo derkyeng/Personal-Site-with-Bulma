@@ -42,6 +42,7 @@ body {
   border-color: transparent;
   background-color: #94e2ff;
   color: white;
+  min-height: 20em;
   padding: 30px;
 }
 
@@ -51,7 +52,21 @@ body {
   color: white;
 }
 
-#additionalInfo h2 {
+#additionalInfo #category {
   color: white;
   text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#additionalInfo #skills {
+  color: white;
+  text-align: left;
+  font-size: 1.15em;
+}
+
+#additionalInfo #hamilton {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
 }
