@@ -95,6 +95,10 @@ body {
   margin: auto;
 }
 
+#projectCols img:hover {
+  filter: brightness(50%);
+}
+
 #projectCols #projectTitle {
   text-align: center;
 }
