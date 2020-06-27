@@ -41,7 +41,7 @@ body {
     border-color: transparent;
     background-color: $primary-color;
     color: white;
-    min-height: 20em;
+    min-height: 25em;
     padding: 30px;
     h1{
         text-align: center;
@@ -65,5 +65,34 @@ body {
         display: block;
         margin: auto;
         border-radius: 50%;
+    }
+    #hamiltonText{
+        padding-top: 1em;
+        font-size: 1.25em;
+    }
+}
+
+#projectText{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#projectCols{
+    display: block;
+    margin: auto;
+    border-right: 2px solid grey;
+    border-left: 2px solid grey;
+    margin-top: 50px;
+    img{
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+    }
+    #projectTitle{
+        text-align: center;
+    }
+    #projectDescription{
+        margin-top: 15px;
+        text-align: center;
     }
 }

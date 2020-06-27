@@ -41,7 +41,7 @@ body {
   border-color: transparent;
   background-color: #94e2ff;
   color: white;
-  min-height: 20em;
+  min-height: 25em;
   padding: 30px;
 }
 
@@ -69,4 +69,37 @@ body {
   display: block;
   margin: auto;
   border-radius: 50%;
+}
+
+#additionalInfo #hamiltonText {
+  padding-top: 1em;
+  font-size: 1.25em;
+}
+
+#projectText {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#projectCols {
+  display: block;
+  margin: auto;
+  border-right: 2px solid grey;
+  border-left: 2px solid grey;
+  margin-top: 50px;
+}
+
+#projectCols img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+#projectCols #projectTitle {
+  text-align: center;
+}
+
+#projectCols #projectDescription {
+  margin-top: 15px;
+  text-align: center;
 }
