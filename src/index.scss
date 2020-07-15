@@ -169,10 +169,29 @@ body {
 
 #projects{
     background-color: lightgray;
+    .column{
+        display: block;
+        margin: auto;
+        .container{
+            text-align: center;
+            a{
+                img{
+                    text-align: center;
+                    border-radius: 25%;
+                }
+            }
+        }
+    }
     h1{
         text-align: center;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 50px;
+        margin-bottom: 10px;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 30px;
         margin-bottom: 10px;
     }
     hr{
@@ -184,4 +203,11 @@ body {
         border-width: 1px;
         width: 30em;
     }  
+    p{
+        width: 80%;
+        display: block;
+        margin: auto;
+        font-family: 'Sora', sans-serif;
+        line-height: 26px;
+    }
 }
