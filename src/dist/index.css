@@ -122,34 +122,71 @@ body {
   font-size: 20px;
 }
 
-#projectText {
+#education h1 {
   text-align: center;
-  font-size: 2.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
-#projectCols {
+#education hr {
+  display: block;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 30em;
+}
+
+#education .container {
   display: block;
   margin: auto;
-  border-right: 2px solid grey;
-  border-left: 2px solid grey;
-  margin-top: 50px;
 }
 
-#projectCols img {
-  border-radius: 50%;
+#education .container h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#education .container h3 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#education .container p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#education .container h4 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+#projects {
+  background-color: lightgray;
+}
+
+#projects h1 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#projects hr {
   display: block;
-  margin: auto;
-}
-
-#projectCols img:hover {
-  filter: brightness(50%);
-}
-
-#projectCols #projectTitle {
-  text-align: center;
-}
-
-#projectCols #projectDescription {
-  margin-top: 15px;
-  text-align: center;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 30em;
 }
