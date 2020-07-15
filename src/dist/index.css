@@ -58,52 +58,68 @@ body {
   width: 30em;
 }
 
-#snork {
-  border-radius: 50%;
-  border-style: solid;
+#aboutMe p {
   display: block;
   margin: auto;
-}
-
-#additionalInfo {
-  border-style: solid;
-  border-radius: 50px;
-  border-color: transparent;
-  background-color: #94e2ff;
-  color: white;
-  min-height: 25em;
-  padding: 30px;
-}
-
-#additionalInfo h1 {
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-}
-
-#additionalInfo #category {
-  color: white;
+  margin-left: 1.5em;
+  margin-top: 10px;
   text-align: left;
-  font-size: 1.5em;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#additionalInfo #skills {
-  color: white;
-  text-align: left;
-  font-size: 1.15em;
-}
-
-#additionalInfo #hamilton {
-  display: block;
-  margin: auto;
-  border-radius: 50%;
-}
-
-#additionalInfo #hamiltonText {
-  padding-top: 1em;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 32px;
   font-size: 1.25em;
+}
+
+#aboutMe #snork {
+  border-radius: 50%;
+  border-style: solid;
+  display: block;
+  margin: auto;
+}
+
+#technicalSkills {
+  background-color: lightgray;
+}
+
+#technicalSkills h1 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#technicalSkills hr {
+  display: block;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 30em;
+}
+
+#technicalSkills .column {
+  text-align: center;
+}
+
+#technicalSkills .column hr {
+  display: block;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 15em;
+}
+
+#technicalSkills .column h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+}
+
+#technicalSkills .column li {
+  line-height: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 #projectText {

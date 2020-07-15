@@ -62,54 +62,66 @@ body {
         width: 30em;
     }
     p{
-        
-    }
-}
-
-
-#snork{
-    border-radius: 50%;
-    border-style: solid;
-    display: block;
-    margin: auto;
-}
-
-#additionalInfo{
-    border-style: solid; 
-    border-radius: 50px;
-    border-color: transparent;
-    background-color: $primary-color;
-    color: white;
-    min-height: 25em;
-    padding: 30px;
-    h1{
-        text-align: center;
-        margin-top: 20px;
-        color: white;
-    }
-    #category{
-        color: white;
-        text-align: left;
-        font-size: 1.5em;
-        font-weight: bold;
-        font-family: 'Open Sans', sans-serif;
-    }
-    #skills{
-        color: white;
-        text-align: left;
-        font-size: 1.15em;
-        
-    }
-    #hamilton{
         display: block;
         margin: auto;
-        border-radius: 50%;
-    }
-    #hamiltonText{
-        padding-top: 1em;
+        margin-left: 1.5em;
+        margin-top: 10px;
+        text-align: left;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 32px; 
         font-size: 1.25em;
+
+    }
+    #snork{
+        border-radius: 50%;
+        border-style: solid;
+        display: block;
+        margin: auto;
     }
 }
+
+#technicalSkills{
+    background-color: lightgray;
+    h1{
+        text-align: center;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    hr{
+        display: block;
+        margin-bottom: 2.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+        width: 30em;
+    }
+    .column{
+        text-align: center;
+        hr{
+            display: block;
+            margin-bottom: 2.5em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+            width: 15em;
+        }
+        h2{
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 25px;
+        }
+        li{
+            line-height: 32px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+    }
+}
+
+
+
 
 #projectText{
     text-align: center;
