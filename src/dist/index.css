@@ -1,26 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 body {
   font: 100% "Noto Sans JP", sans-serif;
 }
 
+.navbar {
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 3em;
+}
+
 .hero {
-  background-color: #94e2ff;
+  background-image: url("/logo/campus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero #heroName {
   font-size: 4.5em;
   color: white;
-  text-shadow: 2px 2px lightgrey;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-weight: bold;
 }
 
 .hero #heroSubtitle {
   font-size: 2.5em;
   margin-bottom: 3em;
   color: white;
-  text-shadow: 2px 3px lightgrey;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.hero .layer {
+  background-color: rgba(29, 76, 117, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#aboutMe h1 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#aboutMe hr {
+  display: block;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 30em;
 }
 
 #snork {
@@ -28,11 +63,6 @@ body {
   border-style: solid;
   display: block;
   margin: auto;
-}
-
-#bioHead {
-  font-size: 2em;
-  margin-bottom: 10px;
 }
 
 #additionalInfo {
