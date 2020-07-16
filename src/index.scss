@@ -10,7 +10,7 @@ body {
 
 .navbar{
     font-family: 'Open Sans Condensed', sans-serif;
-    height: 3em;
+    height: 4em;
 }
 
 .hero{
@@ -213,5 +213,19 @@ body {
         margin: auto;
         font-family: 'Sora', sans-serif;
         line-height: 26px;
+    }
+}
+
+#contact{
+    background-color: white;
+    h1{
+        text-align: left;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .icon{
+        margin-top: 1.5em;
+        width: 4em;
     }
 }
