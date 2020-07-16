@@ -124,6 +124,11 @@ body {
   font-size: 20px;
 }
 
+#technicalSkills .column {
+  display: block;
+  margin: auto;
+}
+
 #education h1 {
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
