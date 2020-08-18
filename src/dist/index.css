@@ -11,6 +11,9 @@ body {
 }
 
 .hero {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
   background-image: url("/logo/campus.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +39,6 @@ body {
   background-color: rgba(29, 76, 117, 0.7);
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -55,7 +57,7 @@ body {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  width: 30em;
+  width: 30vw;
 }
 
 #aboutMe p {
@@ -95,7 +97,7 @@ body {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  width: 30em;
+  width: 30vw;
 }
 
 #technicalSkills .column {
@@ -143,7 +145,7 @@ body {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  width: 30em;
+  width: 30vw;
 }
 
 #education .container {
@@ -217,7 +219,7 @@ body {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  width: 30em;
+  width: 30vw;
 }
 
 #projects p {
